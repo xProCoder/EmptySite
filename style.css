@@ -1,0 +1,61 @@
+﻿/*  Si l'écran est plus petit que 1024px alors, appliquer les changement si dessous */
+
+
+div.content {
+		 display:flex;     /*c'est la commande à utiliser : Display:flex;*/
+	}
+	
+img.logo {
+		height: 300px;
+		
+}
+	
+body {
+	color:black;
+	margin:0px;
+	margin-top:0%;
+}
+
+div.menu-bar {
+	width:100%;
+	background:#171C1B;
+	position:fixed;
+}
+
+div.corps {
+	padding-top:100px;
+}
+
+h1, h2 {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+footer {
+	color:white;
+	background:#171C1B;
+}
+
+div.content > div {
+	/*-webkit-flex: 1 1 auto;*/
+	flex: 1 1 auto;
+}
+
+@media screen and (max-width: 1024px)
+{
+	div.content {
+			display:inline;
+	}
+	
+	h2 { /* sous-titres */
+		font-size:13px;
+	}
+	
+	li { /* le texte */
+		font-size:33px;
+	}
+	
+	h1 {
+		font-size: 26px;
+	}
+}

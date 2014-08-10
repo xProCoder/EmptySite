@@ -1,0 +1,31 @@
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+
+(Sert à utilsier une feuille de style pour un écran de 1280Px maximum)
+
+
+
+    color : gestion de la couleur (en bits/pixel).
+
+    height : hauteur de la zone d'affichage (fenêtre).
+
+    width : largeur de la zone d'affichage (fenêtre).
+
+    device-height : hauteur du périphérique.
+
+    device-width : largeur du périphérique.
+
+    orientation : orientation du périphérique (portrait ou paysage).
+
+    media : type d'écran de sortie. Quelques-unes des valeurs possibles :
+
+        screen : écran « classique » ;
+
+        handheld : périphérique mobile ;
+
+        print : impression ;
+
+        tv : télévision ;
+
+        projection : projecteur ;
+
+        all : tous les types d'écran.
